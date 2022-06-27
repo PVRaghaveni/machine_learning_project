@@ -25,7 +25,7 @@ git add <filename>
 
 Note: To ignore file/folder from  git we can write name of file/folder in .gitignore file
 
-# Tp check git status
+# To check git status
 git status
 
 # TO check all version maintained by git
@@ -33,3 +33,13 @@ git log
 
 # To reate version/commit all cheanges by git
 git commit -m <message with in double quotes>
+
+# To send version/change to github
+git push origin main
+
+
+# To check remote url
+git remote -v
+
+# To check the branch in github
+git branch
