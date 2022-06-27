@@ -37,9 +37,13 @@ git commit -m <message with in double quotes>
 # To send version/change to github
 git push origin main
 
-
 # To check remote url
 git remote -v
 
+# Git Rollback
+gir revert
+
 # To check the branch in github
 git branch
+
+[Git Documentation](https://git-scm.com/docs/gittutorial)
