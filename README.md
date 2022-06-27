@@ -47,3 +47,34 @@ gir revert
 git branch
 
 [Git Documentation](https://git-scm.com/docs/gittutorial)
+
+
+# To setup CI/CD pipeline in Heroku we need 3 information:
+1. HEROKU_EMAIL = mailtoraghaveni@gmail.com
+2. HEROKU API KEY = 5485e5e6-16cc-4409-bed8-2368201c021c
+3. HEROKU APP NAME = firstmlregressionapp
+
+# Create docker file in VS Code
+NewFile==>Give name Dockerfile
+
+# Build Docker Image
+docker build -t <image_name>:<tag_name> <location_name>
+
+> Note : Image_name for docker must be lowercase. And as location of the docker file is in same directory so we specify the location name as .(dot)
+docker build -t ml-project:latest .
+
+# To list docker images
+docker images
+
+# To Run docker image
+docker run -p <port_number> -e PORT=<environment variable_portnumber> <docker_image_id>
+
+docker run -p 5000:5000 -e PORT=5000 <docker image id which you build>
+
+# To check running containers in docker
+docker ps
+
+# To stop any container on docker
+docker stop <container_id>
+
+>Note : we can check container id using docker ps command
