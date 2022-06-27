@@ -50,9 +50,9 @@ git branch
 
 
 # To setup CI/CD pipeline in Heroku we need 3 information:
-1. HEROKU_EMAIL = mailtoraghaveni@gmail.com
-2. HEROKU API KEY = 5485e5e6-16cc-4409-bed8-2368201c021c
-3. HEROKU APP NAME = firstmlregressionapp
+1. HEROKU_EMAIL = <mailid>
+2. HEROKU API KEY = <API KEY>
+3. HEROKU APP NAME = <HEROKU APP NAME>
 
 # Create docker file in VS Code
 NewFile==>Give name Dockerfile
