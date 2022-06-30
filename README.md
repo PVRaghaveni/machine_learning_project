@@ -41,7 +41,7 @@ git push origin main
 git remote -v
 
 # Git Rollback
-gir revert
+git revert
 
 # To check the branch in github
 git branch
