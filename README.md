@@ -78,3 +78,5 @@ docker ps
 docker stop <container_id>
 
 >Note : we can check container id using docker ps command
+
+python setup.py install to run setup.py
